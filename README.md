@@ -18,7 +18,7 @@ The Spatial Embedding was added to the models to allow the them to learn from lo
 The code for the Spatial Embedding is similar in both models, but varies slightly to be incorporated into the current model's structure. 
 
 ## Data
-This research was tested on many different datasets: [Weather](https://www.ncei.noaa.gov/data/local-climatological-data/), [ECL](https://doi.org/10.24432/C58C86), [AirQuality](https://doi.org/10.24432/C5RK5G), and [Manufacturing](https://www.kaggle.com/dsv/8684322). The datasets used for both models in this research can be found in `Spatial-Research/Informer_Model/data/custom_data` with the exception of the ECL dataset. This dataset is too large and is found (FIGURE OUT WHERE TO PUT IT) instead. 
+This research was tested on many different datasets: [Weather](https://www.ncei.noaa.gov/data/local-climatological-data/), [ECL](https://doi.org/10.24432/C58C86), [AirQuality](https://doi.org/10.24432/C5RK5G), and [Manufacturing](https://www.kaggle.com/dsv/8684322). The datasets used for both models in this research can be found in `Spatial-Research/Informer_Model/data/custom_data`. The ECL dataset is in a zip file due to its size. 
 
 The datasets were preprocessed to contain a label vector for identification between the different locations. How the data was preprocessed can be found in Colab: [Data Preprocessing Colab](). An example of the dataset layout can be seen below.
 
