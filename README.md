@@ -20,7 +20,7 @@ The code for the Spatial Embedding is similar in both models, but varies slightl
 ## Data
 This research was tested on many different datasets: [Weather](https://www.ncei.noaa.gov/data/local-climatological-data/), [ECL](https://doi.org/10.24432/C58C86), [AirQuality](https://doi.org/10.24432/C5RK5G), and [Manufacturing](https://www.kaggle.com/dsv/8684322). The datasets used for both models in this research can be found in `Spatial-Research/Informer_Model/data/custom_data`. The ECL dataset is in a zip file due to its size. 
 
-The datasets were preprocessed to contain a label vector for identification between the different locations. How the data was preprocessed can be found in Colab: [Data Preprocessing Colab](). An example of the dataset layout can be seen below.
+The datasets were preprocessed to contain a label vector for identification between the different locations. An example of the dataset layout can be seen below.
 
 <p align="center">
 <img src=".\Photos\Dataset_Example.png" height = "320" alt="" align=center />
